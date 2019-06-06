@@ -15,7 +15,7 @@ public class WelcomeController {
 
     @GetMapping("/")
     public String index(Model model) {
-        logger.debug("Welcome to globex.com...");
+        logger.debug("Welcome to globex.com......");
         model.addAttribute("msg", getMessage());
         return "index";
 
